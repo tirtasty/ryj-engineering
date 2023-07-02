@@ -3,6 +3,7 @@ import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logoImg from "../assets/ryjfav.png";
 
 const Navbar = () => {
 
@@ -13,8 +14,10 @@ const Navbar = () => {
 
   return (
     <div className="header">
-        <Link to="/">
-            <h1 id="headerLogo">RYJ</h1>
+        <Link className="subHeader" to="/">
+            <img className="logo-Image" src={logoImg} alt="logoImage" />
+            <h1 className="headerLogo">RYJ</h1>
+            
         </Link>
         {/* Sub Menu in Homepage */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
