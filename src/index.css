@@ -38,7 +38,7 @@ ul {
 
 /* BUTTON */
 .btn {
-  padding: 12px 32px;
+  padding: 12px 65px;
   font-size: 1rem;
   text-transform: uppercase;
   background-color: var(--button-colour);
