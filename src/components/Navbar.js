@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="header">
         <Link to="/">
-            <h1 id="headerLogo">RYJ Engineering</h1>
+            <h1 id="headerLogo">RYJ</h1>
         </Link>
         {/* Sub Menu in Homepage */}
         <ul className="nav-menu">
