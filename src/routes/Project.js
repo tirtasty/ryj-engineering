@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from '../components/Navbar';
+
 
 
 const Project = () => {
@@ -9,3 +9,4 @@ const Project = () => {
 }
 
 export default Project
+
