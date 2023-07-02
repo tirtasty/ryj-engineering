@@ -5,10 +5,7 @@ const Home = () => {
   return (
     <div>
         <Navbar/>
-        <h1>RYJ Engineering</h1>
         
-
-
     </div>
   )
 }
