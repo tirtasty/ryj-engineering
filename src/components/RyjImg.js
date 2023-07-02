@@ -15,11 +15,11 @@ const RyjImg = () => {
         <div className="content">
             <p>RYJ Engineering</p>
             <h1 id="introWords" >AIR CONDITIONING | VENTILATION SOLUTIONS</h1>
-            <h2>Sydney, NSW</h2>
             <div>
-                <Link to="/project" className="btn"></Link>
-                <Link to="/contact" className="btn btn-light"></Link>
+                <Link to="/project" className="btn">Projects</Link>
+                <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
+            <p className="local">Sydney,   NSW</p>
 
 
         </div>
