@@ -1,0 +1,43 @@
+h3 {
+    font-weight:200;
+    font-size: 15px;
+}
+
+.services {
+    width: 100%;
+    padding: 6rem 1rem;
+    
+}
+
+.service-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    
+}
+
+.service-card {
+    cursor: pointer;
+    background-color: var(--container-colour);
+    opacity: 0.85;
+    padding: 1rem;
+}
+
+.service-card:hover {
+    background-color: var(--hover-colour);
+    transition: .5s;
+    opacity: 1;
+}
+
+@media screen and (max-width: 740px) {
+    .service-card {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+}
