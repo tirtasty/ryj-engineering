@@ -1,0 +1,42 @@
+.copyright {
+    width: 100%;
+    background: black;
+    opacity: .8;
+}
+
+.copyright-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+
+.left p {
+    font-size: 10px;
+}
+
+.rightCopy {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    padding: 1rem 4rem;
+    letter-spacing: .5px;
+}
+
+.rightCopy p {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+    .rightCopy p {
+        font-size: 6px;
+        cursor: pointer;
+    }
+    .left p {
+        font-size: 6px;
+    }
+
+}

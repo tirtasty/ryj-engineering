@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     opacity: 0.8;
 }
 
@@ -50,6 +50,7 @@
 
 .content .btn {
     margin: 1rem .3rem 0;
+    cursor: pointer;
 }
 
 .ryj .content .local {

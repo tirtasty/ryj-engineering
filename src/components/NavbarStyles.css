@@ -10,7 +10,7 @@
 }
 
 .header-bg {
-    background-color: 0, 0, 0, 0.80;
+    background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
 }
 
@@ -42,6 +42,11 @@
 }
 
 .header a {
+    display: flex;
+    align-items: center;
+}
+
+.footerGroup {
     display: flex;
     align-items: center;
 }

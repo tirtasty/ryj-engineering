@@ -1,7 +1,7 @@
 import "./RyjImgStyles.css";
 
 import React from 'react'
-import backgroundImg from "../assets/background.jpg";
+import backgroundImg from "../assets/aircondback.jpg";
 import { Link } from "react-router-dom";
 
 

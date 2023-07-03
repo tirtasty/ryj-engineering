@@ -3,7 +3,7 @@ import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logoImg from "../assets/ryjfav.png";
+import logoImg from "../assets/ryjicon.png";
 
 const Navbar = () => {
 
@@ -12,7 +12,7 @@ const Navbar = () => {
 
     const [color, setColor] = useState(false);
     const changeColor = () => {
-        if (window.scrollY >= 1) {
+        if (window.scrollY >=100) {
             setColor(true);
         } else {
             setColor(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link className="subHeader" to="/">
-            <img className="logo-Image" src={logoImg} alt="logoImage" />
+            <img className="logo-Image" src={logoImg} alt="logoImage"/>
             <h1 className="headerLogo">RYJ</h1>
             
         </Link>
