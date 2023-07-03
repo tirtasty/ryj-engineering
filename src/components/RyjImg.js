@@ -16,7 +16,7 @@ const RyjImg = () => {
             <p>RYJ Engineering</p>
             <h1 id="introWords" >AIR CONDITIONING | VENTILATION SOLUTIONS</h1>
             <div>
-                <Link to="/project" className="btn">Projects</Link>
+                <Link to="/service" className="btn">Services</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
             <p className="local">Sydney,   NSW</p>

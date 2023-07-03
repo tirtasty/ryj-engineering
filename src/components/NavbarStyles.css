@@ -61,7 +61,7 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background-color: var(--background-color);
+        background-color: rgba(0, 0, 0, 0.85);
         position: absolute;
         top: 0;
         left: -100%;

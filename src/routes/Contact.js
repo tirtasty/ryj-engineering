@@ -1,18 +1,16 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Copyright from '../components/Copyright';
 
 
 const Contact = () => {
   return (
-    <div>Contact
-  
-      <ul>
-        <li>
-          {/* This fuction is go back to homepage */}
-          <Link to="/">Home</Link> 
-          
-        </li>
-      </ul>
+    <div>
+      <Navbar />
+      <Footer />
+      <Copyright />
     </div>
     
   )

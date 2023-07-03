@@ -22,6 +22,7 @@
 
 body {
   background-color: black;
+  max-width: 100%;
 }
 
 h1,
