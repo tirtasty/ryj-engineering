@@ -20,7 +20,7 @@ const Copyright = () => {
                 <div className="lefy-copy">
                     <p className="copyright-left">
                         <FaCopyright size={10} style={{color: 'white', marginRight: "2rem"}}/>
-                    JRY Engineering Group. All rights reserved.
+                    RYJ Engineering Group. All rights reserved.
                     </p>
                 </div>
             </div>
