@@ -6,8 +6,9 @@ label {
 .form {
     display: flex;
     flex-direction: column;
-    padding: 5rem 1rem;
-    margin: 0 auto;
+    padding: 10rem 1rem;
+    
+    margin: auto;
     max-width: 600px;
 }
 

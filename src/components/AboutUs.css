@@ -1,7 +1,7 @@
 .About-Us {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 25vh;
+    height: 35vh;
     position: relative;
 }
 
@@ -14,39 +14,20 @@
     align-items: center;
 }
 
-.About-Us::before {
-    content: "";
-    background-color: var(--container-colour);
-    background-size: cover;
-    background-position: center top;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: 0.70;
-}
-
 .About-Us h1 {
     font-size: 2rem;
     padding: 1rem 1rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .About-Us p {
     font-size:  1rem;
     text-align: center;
     font-weight: 200;
-    padding: 3rem 1rem;
+    padding: 3rem 20rem;
 }
 
-.aboutUs-card {
-    color: var(--hover-colours);
-    text-align: center;
-    padding: 1rem 1rem;
-    background: #30303056;
-}
 
 .aboutUs-card:hover {
     background: #3f3f3f56;
