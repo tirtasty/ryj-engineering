@@ -4,14 +4,14 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Copyright from '../components/Copyright';
 import ContactUs from '../components/ContactUs';
-import RyjImg2 from '../components/RyjImg2';
+import RyjImage3 from '../components/RyjImage';
 
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <RyjImg2 heading="Contact Us"/>
+      <RyjImage3 heading="Contact Us"/>
       <ContactUs />
       <Footer />
       <Copyright />

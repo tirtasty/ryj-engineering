@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Copyright from '../components/Copyright';
 import AboutUs from '../components/AboutUs';
 
+
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
         <RyjImg />
         <AboutUs heading="ABOUT US" text="RYJ Engineering offers a comprehensive Air Conditioning & Ventilation solution to homeowners, architects, builders, and developers, 
         servicing full extent of the project from estimation, design, procurement to installation."/>
+        {/* <ContactUs /> */}
         <Footer />
         <Copyright />
         
