@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logoImg from "../assets/ryjicon.png";
 
+
+
 const Navbar = () => {
 
     const [click , setClick] = useState(false);
@@ -44,6 +46,9 @@ const Navbar = () => {
             <li>
                 <Link to="/Contact">Contact</Link>
             </li>
+            <li>
+          </li>
+
         </ul>
 
         {/* Hamburger Menu */}

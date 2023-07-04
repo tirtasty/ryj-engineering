@@ -7,7 +7,7 @@ import { FaCopyright} from "react-icons/fa";
 
 const Copyright = () => {
 
-    const website = "tirtastyadi.com.au"
+    
 
     // const handleClick = () => {
     //     window.location.href = `mailto:${website}`;
@@ -19,15 +19,15 @@ const Copyright = () => {
             <div className="left">
                 <div className="lefy-copy">
                     <p className="copyright-left">
-                        <FaCopyright size={10} style={{color: 'white', marginRight: "2rem"}}/>
-                    RYJ Engineering Group. All rights reserved.
+                        <FaCopyright size={12} style={{color: 'white', marginRight: "0.5rem" }}/>
+                        RYJ Engineering Group. All rights reserved.
                     </p>
                 </div>
             </div>
             <div className="rightCopy">
                 <div className="brandMaker">
                 <p className="copyright-left">
-                    Website, graphics Design, by <a href={website} target="_blank" rel="noopener noreferrer">Tirta Styadi</a>
+                    Website, graphics Design, by <a href="https://tirtastyadi.com.au" target="_blank" rel="noopener noreferrer">Tirta Styadi</a>
                     </p>
                        
                 </div>

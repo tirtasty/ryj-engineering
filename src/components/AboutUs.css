@@ -1,7 +1,7 @@
 .About-Us {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 40vh;
+    height: 25vh;
     position: relative;
 }
 
@@ -29,20 +29,47 @@
 }
 
 .About-Us h1 {
-    font-size: 2.4rem;
-    padding: 3rem 1rem;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    font-weight: 400;
 }
 
 .About-Us p {
-    font-size:  1.4rem;
+    font-size:  1rem;
     text-align: center;
     font-weight: 200;
     padding: 3rem 1rem;
 }
 
-@media screen and (max-width: 640px) {
+.aboutUs-card {
+    color: var(--hover-colours);
+    text-align: center;
+    padding: 1rem 1rem;
+    background: #30303056;
+}
+
+.aboutUs-card:hover {
+    background: #3f3f3f56;
+    transition: ease-in-out .5s;
+} 
+
+@media screen and (max-width: 740px) {
     .Ryj-Img h1 {
         font-size: 2rem;
     }
     
+    .aboutUs-card {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .About-Us h1 {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    
+    .About-Us p {
+        font-size:  1rem;
+        padding: 2rem;
+    }
 }

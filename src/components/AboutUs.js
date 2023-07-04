@@ -8,10 +8,11 @@ class AboutUs extends Component {
         return (
             <div className="About-Us">
                 <div className="heading">
+                    <div className="aboutUs-card">
                             <h1>{this.props.heading}</h1>
                             <p>{this.props.text}</p>
-                
-                        </div>
+                            </div>
+                </div>
         
             </div>
           )
