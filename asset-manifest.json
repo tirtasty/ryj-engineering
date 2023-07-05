@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ryj-engineering/static/css/main.deb83d99.css",
+    "main.js": "/ryj-engineering/static/js/main.08baeddc.js",
+    "static/media/aircondback.jpg": "/ryj-engineering/static/media/aircondback.d30468cc48236340d3ba.jpg",
+    "static/media/ryjicon.png": "/ryj-engineering/static/media/ryjicon.7a9bd441ceac08d3180a.png",
+    "index.html": "/ryj-engineering/index.html",
+    "main.deb83d99.css.map": "/ryj-engineering/static/css/main.deb83d99.css.map",
+    "main.08baeddc.js.map": "/ryj-engineering/static/js/main.08baeddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb83d99.css",
+    "static/js/main.08baeddc.js"
+  ]
+}
