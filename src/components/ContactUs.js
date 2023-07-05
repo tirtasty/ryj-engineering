@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
 
+    // This fuction is using to receive email from contact form.
     const form = useRef();
 
     const sendEmail = (e) => {
