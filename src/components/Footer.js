@@ -7,7 +7,7 @@ import logoImg from "../assets/ryjicon.png";
 
 const Footer = () => {
 
-    const email = "ryan@ryjengineering.com.au"
+    const email = "rb@ryjengineering.com.au"
 
     const handleClick = () => {
         window.location.href = `mailto:${email}`;

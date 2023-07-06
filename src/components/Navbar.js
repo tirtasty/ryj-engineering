@@ -40,9 +40,9 @@ const Navbar = () => {
             <li>
                 <Link to="/Service">Service</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link to="/Project">Product</Link>
-            </li>
+            </li> */}
             <li >
                 <Link to="/Contact">Contact</Link>
             </li>
