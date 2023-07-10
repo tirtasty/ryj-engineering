@@ -19,7 +19,7 @@ const Copyright = () => {
             <div className="left">
                 <div className="lefy-copy">
                     <p className="copyright-left">
-                        <FaCopyright size={12} style={{color: 'white', marginRight: "0.5rem" }}/>
+                        <FaCopyright size={10} style={{color: 'white', marginRight: "0.5rem" }}/>
                         RYJ Engineering Group. All rights reserved.
                     </p>
                 </div>

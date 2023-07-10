@@ -45,6 +45,14 @@
     }
     .left p {
         font-size: 6px;
+        size: 8;
     }
 
+    .copyright-container {
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    }
 }
