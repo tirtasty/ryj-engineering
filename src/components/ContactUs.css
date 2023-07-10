@@ -7,7 +7,7 @@ label {
     display: flex;
     flex-direction: column;
     padding: 10rem 1rem;
-    
+
     margin: auto;
     max-width: 600px;
 }
@@ -20,3 +20,4 @@ input, textarea {
     border-color: rgba(255, 255, 255, 0.1);
     color: #fff;
 }
+

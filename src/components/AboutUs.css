@@ -25,14 +25,28 @@
     font-size:  1rem;
     text-align: center;
     font-weight: 200;
-    padding: 3rem 20rem;
+    padding: 3rem 15rem;
 }
+@media screen and (max-width: 1140px) {
+    .Ryj-Img h1 {
+        font-size: 2rem;
+    }
+    
+    .aboutUs-card {
+        max-width: 90%;
+        margin: auto;
+    }
 
-
-.aboutUs-card:hover {
-    background: #3f3f3f56;
-    transition: ease-in-out .5s;
-} 
+    .About-Us h1 {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    
+    .About-Us p {
+        font-size:  1rem;
+        padding: 2rem;
+    }
+}
 
 @media screen and (max-width: 740px) {
     .Ryj-Img h1 {

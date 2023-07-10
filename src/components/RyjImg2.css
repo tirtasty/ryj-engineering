@@ -43,5 +43,9 @@
     .Ryj-Img h1 {
         font-size: 2rem;
     }
+
+    .btn {
+        display: block
+    }
     
 }

@@ -18,21 +18,22 @@ const ContactUs = () => {
           console.log(error.text);
       });
   };
+  
 
   return (
     <form ref={form} onSubmit={sendEmail}>
     <div className="form">
-        <label>Your Name</label>
+        <label>Name</label>
         <input type="text" name="user_name"></input>
 
         <label>Email</label>
         <input type="email" name="user_email"></input>
 
-        <label>Subject</label>
-        <input type="text" name="subject"></input>
+        <label>Phone Number</label>
+        <input type="number" name="phone_number"></input>
 
         <label>Message</label>
-        <textarea name="message" row="6" placeholder="Type Here"/>
+        <textarea name="message" row="6" placeholder="Put your inqury here"/>
 
         <button type="submit" value="Send" className="btn">Submit</button>
 
